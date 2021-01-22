@@ -7,6 +7,7 @@ def join_nested_strings(src)
       if src[row].include?(" ")
         phrase<< src[row][element]
       end
+      element_index+=1
     end
     row+= 1
   end
