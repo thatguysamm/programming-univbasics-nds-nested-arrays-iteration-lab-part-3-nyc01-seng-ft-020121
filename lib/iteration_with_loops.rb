@@ -6,6 +6,7 @@ def join_nested_strings(src)
     while element_index< src[row].length do
       if src[row][element].include?(" ")
         phrase<< src[row][element]
+      end
     end
     row+= 1
   end
