@@ -1,7 +1,7 @@
 def join_nested_strings(src)
   phrase= ""
   row= 0
-  while row.length< src do
+  while row< src.length do
     element_index= 0
     while element.length< src[row] do
       phrase+= src[row][element_index]
