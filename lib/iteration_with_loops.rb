@@ -3,7 +3,7 @@ def join_nested_strings(src)
   row_index= 0
   while row_index< src.length do
     element_index= 0
-    while element_index< src[row].length do
+    while element_index< src[row_index].length do
       if src[row_index].include?(" ")
         phrase<< src[row_index][element_index]
       end
