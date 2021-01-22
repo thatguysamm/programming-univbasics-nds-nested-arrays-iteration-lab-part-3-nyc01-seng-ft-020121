@@ -11,3 +11,4 @@ def join_nested_strings(src)
   end
   phrase.to_s
 end
+end
