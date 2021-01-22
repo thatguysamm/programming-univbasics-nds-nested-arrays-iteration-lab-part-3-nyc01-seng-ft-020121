@@ -1,5 +1,5 @@
 def join_nested_strings(src)
-  phrase=
+  phrase=" "
   row= 0
   while row< src.length do
     element_index= 0
