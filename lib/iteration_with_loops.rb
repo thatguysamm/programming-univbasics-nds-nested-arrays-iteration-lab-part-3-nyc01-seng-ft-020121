@@ -9,6 +9,6 @@ def join_nested_strings(src)
     end
     row+= 1
   end
-  phrase.to_s
+  phrase
 end
 end
